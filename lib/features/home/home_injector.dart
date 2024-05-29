@@ -3,7 +3,7 @@ import 'package:tree_view/shared/injector/base_injector.dart';
 
 class HomeInjector extends BaseInjector {
   @override
-  Future<void> call(GetIt dependency) async {}
+  void call(GetIt dependency) {}
 
   @override
   String get scopeName => toString();
