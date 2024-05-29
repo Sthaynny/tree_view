@@ -1,13 +1,13 @@
 import 'package:pop_network/pop_network.dart';
 
-class ComponiasDatasource {
+class ComponhiaDatasource {
   final IApiManager _apiManager;
 
-  ComponiasDatasource({
+  ComponhiaDatasource({
     required IApiManager apiManager,
   }) : _apiManager = apiManager;
 
-  Future<Response> obterCompanias() {
+  Future<Response> obterCompanhias() {
     return _apiManager.get(
       '/companies',
     );
