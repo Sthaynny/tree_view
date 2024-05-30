@@ -3,8 +3,8 @@ import 'package:mocktail/mocktail.dart';
 import 'package:pop_network/pop_network.dart';
 import 'package:tree_view/features/common/data/datasource/companhia_datasource.dart';
 
-import '../../utils/constants.dart';
-import '../../utils/utils.dart';
+import '../../../utils/constants.dart';
+import '../../../utils/utils.dart';
 
 void main() {
   late IApiManager apiManagerMock;
