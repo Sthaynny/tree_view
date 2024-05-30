@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:pop_network/pop_network.dart';
-import 'package:tree_view/features/home/data/datasource/companhia_datasource.dart';
+import 'package:tree_view/features/common/data/datasource/companhia_datasource.dart';
 
 import '../../utils/constants.dart';
 import '../../utils/utils.dart';

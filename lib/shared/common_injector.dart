@@ -3,7 +3,7 @@ import 'package:pop_network/pop_network.dart';
 import 'package:tree_view/shared/api/logging_interceptor.dart';
 import 'package:tree_view/shared/injector/base_injector.dart';
 
-class CommonInjector extends BaseInjector {
+class SharedInjector extends BaseInjector {
   @override
   void call(GetIt dependency) async {
     dependency.registerLazySingleton<IApiManager>(
