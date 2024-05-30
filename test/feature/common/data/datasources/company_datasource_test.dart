@@ -8,11 +8,11 @@ import '../../../utils/utils.dart';
 
 void main() {
   late IApiManager apiManagerMock;
-  late ComponhiaDatasource componhiaDatasource;
+  late CompanyDatasource componhiaDatasource;
 
   setUp(() {
     apiManagerMock = IApiManagerMock();
-    componhiaDatasource = ComponhiaDatasource(apiManager: apiManagerMock);
+    componhiaDatasource = CompanyDatasource(apiManager: apiManagerMock);
   });
   group('Função obterCompanias:', () {
     test(
